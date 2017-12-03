@@ -33,6 +33,8 @@ describe('index.js', () => {
 
     // checking by state
     expect(result.name).toBe('name');
+    expect(result.content[0].value).toBe('fakeType1Transformation');
+    expect(result.content[1].value).toBe('fakeType2Transformation');
 
     // checking by behaviour
     expect(transformType1).toBeCalledWith(rawObject.content[0]);
