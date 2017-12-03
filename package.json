@@ -1,0 +1,29 @@
+{
+  "name": "techblog-unit-testing-with-snapshots",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/mainindex.js",
+  "scripts": {
+    "test": "jest",
+    "lint": "eslint src/**"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/andoniarroyo/techblog-unit-testing-with-snapshots.git"
+  },
+  "author": "Andoni Arroyo",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/andoniarroyo/techblog-unit-testing-with-snapshots/issues"
+  },
+  "homepage": "https://github.com/andoniarroyo/techblog-unit-testing-with-snapshots#readme",
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-jest": "^21.2.0",
+    "babel-preset-es2015": "^6.24.1",
+    "eslint": "^4.12.1",
+    "eslint-config-airbnb-base": "^12.1.0",
+    "eslint-plugin-import": "^2.8.0",
+    "jest": "^21.2.1"
+  }
+}
