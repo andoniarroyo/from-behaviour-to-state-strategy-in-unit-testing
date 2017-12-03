@@ -19,8 +19,6 @@ describe('index.js', () => {
     const result = transform(rawObject);
 
     // checking by state
-    expect(result.name).toBe('name');
-    expect(result.content[0].value).toBe('prop1');
-    expect(result.content[1].value).toBe('PROP2');
+    expect(result).toMatchSnapshot();
   });
 });

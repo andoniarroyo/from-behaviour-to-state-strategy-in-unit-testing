@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`index.js transforms the incoming raw object 1`] = `
+Object {
+  "content": Array [
+    Object {
+      "type": "type1",
+      "value": "prop1",
+    },
+    Object {
+      "type": "type2",
+      "value": "PROP2",
+    },
+  ],
+  "name": "name",
+}
+`;
