@@ -35,7 +35,7 @@ describe('index.js', () => {
     expect(result.name).toBe('name');
 
     // checking by behaviour
-    expect(transformType1).toBeCalled();
-    expect(transformType2).toBeCalled();
+    expect(transformType1).toBeCalledWith(rawObject.content[0]);
+    expect(transformType2).toBeCalledWith(rawObject.content[1]);
   });
 });
